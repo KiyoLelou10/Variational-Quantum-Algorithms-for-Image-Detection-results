@@ -42,7 +42,6 @@ Depending on the subfolder, the repository contains:
 - mean / standard deviation / 95% confidence intervals
 - local and global Fisher-geometry summaries
 - effective-dimension results
-- checkpoints and run logs
 - selected training / evaluation plots
 
 ## Main summary files
@@ -50,15 +49,13 @@ Depending on the subfolder, the repository contains:
 Typical top-level summary files include:
 
 - `summary_all_information_for_quantum_experiments_final.json`
-- `summary_all_information.json` (classical baseline results)
-- additional dataset- or experiment-specific summary JSON files
+- `summary_all_information_for_classical_baselines.json` 
 
 These files are intended to make it easy to recover the reported values used in the paper tables and discussion.
 
 ## Notes
 
-- This repository contains the **results**, not just the source code.
-- The corresponding code repository contains the scripts used to generate these outputs.
+- This repository contains the **results**, not the source code this can be found at https://github.com/KiyoLelou10/Variational-Quantum-Algorithms-for-Image-Detection-code.
 - The quantum geometry results reported in the paper correspond to the **cross-entropy** setting.
 - The MSE results are included as a robustness check.
 
